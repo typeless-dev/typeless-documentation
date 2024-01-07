@@ -1,0 +1,8 @@
+{
+  "label": "Docusaurus tuto",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to integrate Typeless's Medical STT in your app."
+  }
+}
