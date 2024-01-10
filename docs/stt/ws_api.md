@@ -16,7 +16,7 @@ We show simple examples using Javascript, but the API can be used with any langu
 
 :::tip Tip
 
-We provide a list of [SDKs](/docs/category/sdks/) to interface with the Websocket API. These SDKs are designed to facilitate easy integration of our real-time speech-to-text capabilities into various medical software systems, enhancing efficiency and accessibility.
+We provide a list of [SDKs](/docs/category/websocket-sdks/) to interface with the Websocket API. These SDKs are designed to facilitate easy integration of our real-time speech-to-text capabilities into various medical software systems, enhancing efficiency and accessibility.
 :::
 
 ### Connection

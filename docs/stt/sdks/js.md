@@ -10,6 +10,8 @@ sidebar_position: 7
 npm install typeless-stt-js
 ```
 
+Code source: [https://github.com/typeless-dev/typeless-stt-js](https://github.com/typeless-dev/typeless-stt-js)
+
 ## Quickstart
 
 ```tsx
@@ -28,9 +30,14 @@ const audioRecorder = new AudioRecorder(
   },
   <MANUAL_PUNCTUATION>,
 );
+
+audioRecorder.startRecording(<CALL_KEY>);
+sleep(5000);
+audioRecorder.stopRecording();
+
 ```
 
-## Controls
+## Control methods
 
 - `startRecording`: `function (callKey) => res` - Begins the audio recording.
   - `callKey`: `string` - The unique call key for the recording.
@@ -44,7 +51,7 @@ const audioRecorder = new AudioRecorder(
 
 :::tip Tip
 
-- Hook is designed to that `startRecording` and `stopRecording` can be called multiple times without any issues. However, it is recommanded to have visual feedbacks to let the user understand why for example the recording is not starting (already recording from somewhere else in the app for example).
+- Class is designed to that `startRecording` and `stopRecording` can be called multiple times without any issues. However, it is recommanded to have visual feedbacks to let the user understand why for example the recording is not starting (already recording from somewhere else in the app for example).
 - `callkey` can be used to simplify bringing the new transcription results to the right place, and for potential analytics purposes, by identifying the button that triggered the recording.
   :::
 
@@ -75,7 +82,3 @@ Use this function to update the UI with the latest transcription results.
 :::tip Tip
 You can use this callback for analytics purposes (audio duration, call key, etc.).
 :::
-
-## Usage
-
-Define only one instance of `useRecordAudio` in your application. You can then use the `startRecording` and `stopRecording` functions anywhere in your application.
