@@ -52,7 +52,3 @@ server {
 - **Your authentification**:
 
   We advise you to use your own authentification system to authenticate your users before feeding any Typeless request to the reverse proxy.
-
-```
-
-```

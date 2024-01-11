@@ -51,7 +51,7 @@ audioSocket.onopen = () => {
 
 2. **Streaming the audio**
 
-Audio should be recorded as a **.wav** or **.mp3** file sampled at **16khz**, **mono** (one channel), and chunked every **1 second** (16000 samples).
+Audio should be recorded as a **.wav** file sampled at **16khz**, **mono** (one channel), and chunked every **1 second** (16000 samples).
 
 Audio message should be a stringified JSON object containing:
 
