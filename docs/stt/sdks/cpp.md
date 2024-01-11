@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## Install
 
-First of all, clone [https://github.com/typeless-dev/typeless-stt-js](https://github.com/typeless-dev/typeless-stt-cpp).
+First of all, clone [https://github.com/typeless-dev/typeless-stt-cpp](https://github.com/typeless-dev/typeless-stt-cpp).
 
 Then, clone https://github.com/zaphoyd/websocketpp which is a header-only library.
 

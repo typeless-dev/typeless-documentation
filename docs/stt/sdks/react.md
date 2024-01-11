@@ -10,7 +10,7 @@ sidebar_position: 4
 npm install typeless-stt-react
 ```
 
-Code source: [https://github.com/typeless-dev/typeless-stt-react](https://github.com/typeless-dev/typeless-stt-js)
+Source code: [https://github.com/typeless-dev/typeless-stt-react](https://github.com/typeless-dev/typeless-stt-react)
 
 ## Quickstart
 

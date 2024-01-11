@@ -10,7 +10,7 @@ sidebar_position: 7
 npm install typeless-stt-js
 ```
 
-Code source: [https://github.com/typeless-dev/typeless-stt-js](https://github.com/typeless-dev/typeless-stt-js)
+Source code: [https://github.com/typeless-dev/typeless-stt-js](https://github.com/typeless-dev/typeless-stt-js)
 
 ## Quickstart
 
