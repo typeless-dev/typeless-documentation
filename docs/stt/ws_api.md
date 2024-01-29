@@ -36,12 +36,15 @@ Client should send a stringified JSON object containing:
 
 - `language`: The language of the transcription. See [Supported languages](/docs/stt/languages) for a list of supported languages.
 - `manual_punctuation`: Boolean. If set to true, user will be able to dictate punctuation marks. If set to false, punctuation marks will be automatically added to the transcription.
+- `end_user_id`: A unique identifier for the end-user. See [Authentication](/docs/stt/authentif) for more information.
 - `hotwords` (optional): Comma-separated list of hotwords to be detected in the audio file.
+- `domain` (optional): Medical specialty group of the end-user. See [Supported languages](/docs/stt/languages) for a list of supported specialty groups for each language. If the specialty of the end-user is not in the supported groups, do not specify this field and the transcription will be performed without domain-specific vocabulary.
 
 ```javascript
 const initialMessage = JSON.stringify({
   language: "fr",
   manual_punctuation: false,
+  end_user_id: "1234567890",
   hotwords: "hotword1,hotword2",
 });
 audioSocket.onopen = () => {
@@ -56,7 +59,7 @@ Audio should be recorded as a **.wav** file sampled at **16khz**, **mono** (one 
 Audio message should be a stringified JSON object containing:
 
 - `audio`: The audio file as a base64 string.
-- `uid` (optional): A unique identifier for the audio request (returned in the corresponding response, if any).
+- `uid`: A unique identifier for the audio request (returned in the corresponding response).
 
 ```javascript
 const blobToBase64 = (blob) => {

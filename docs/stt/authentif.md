@@ -8,6 +8,8 @@ sidebar_position: 5
 
 Typeless STT APIs uses API keys to authenticate requests. You have received or will receive an API key from us. This API key will be shared between all your users. You should use the API key to make requests to the API from your backend.
 
+We also expect an **end-user unique identifier** to be sent with each request. For privacy purposes, we advise you to use a unique identifier that is not directly linked to the user's identity (e.g. a UUID). We expect you to keep track of the mapping between the end-user unique identifier and the user's identity.
+
 ## Authentication flow
 
 ![Authentication](/img/auth.png)
@@ -22,7 +24,7 @@ Typeless STT APIs uses API keys to authenticate requests. You have received or w
 
 - **Reverse proxy**:
 
-  If you use the API key in your backend, we advise you to use a reverse proxy (such as **Nginx**):
+  We advise you to use a reverse proxy (such as **Nginx**):
 
   - The reverse proxy will be the only one to know the API key.
   - It will forward the requests from the frontend to the API.
