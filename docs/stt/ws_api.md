@@ -46,6 +46,7 @@ const initialMessage = JSON.stringify({
   manual_punctuation: false,
   end_user_id: "1234567890",
   hotwords: "hotword1,hotword2",
+  domain: "gynécologie",
 });
 audioSocket.onopen = () => {
   audiosocket.send(JSON.stringify(initialMessage));
