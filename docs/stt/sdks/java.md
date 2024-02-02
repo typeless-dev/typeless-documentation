@@ -73,8 +73,8 @@ private val websocketManager: WebsocketManager by lazy {
 
 ### Methods
 
-- `startRecording`: `function () => ()` - Begins the audio recording.
-- `stopRecording`: `function () => ()` - Stops the audio recording.
+- `start`: `function () => ()` - Begins the audio recording.
+- `stop`: `function () => ()` - Stops the audio recording.
 
 ## MainActivity
 
