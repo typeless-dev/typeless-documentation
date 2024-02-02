@@ -11,6 +11,7 @@ We are currently working on adding support for Italian, German and English.
 ## Supported medical specialty groups
 
 - French:
+  - `general`
   - `anesthésie-réanimation`
   - `cardiologie-vasculaire`
   - `gynécologie`

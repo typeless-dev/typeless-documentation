@@ -103,5 +103,3 @@ export class AppComponent {
 
 - `callkey` can be used to simplify bringing the new transcription results to the right place, and for potential analytics purposes, by identifying the button that triggered the recording.
   :::
-
-## Parameters
