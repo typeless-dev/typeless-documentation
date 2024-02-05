@@ -12,4 +12,4 @@ Have a look at [our supported languages](/docs/stt/languages) to see which langu
 
 We provide a comprehensive list of [SDKs](/docs/category/websocket-sdks/) (Software Development Kits) to interface seamlessly with the WebSocket API. These SDKs are designed to facilitate easy integration of our speech-to-text capabilities into various medical software systems, enhancing efficiency and accessibility. Whether you're developing a telemedicine platform, a digital health record system, or other medical applications, our SDKs provide the necessary tools to incorporate advanced real-time speech recognition functionalities into your software.
 
-We also guide you through the process of [authenticating](/docs/stt/authentif) the client requests through your backend with key-based authentication.
+We also guide you through the process of [authenticating](/docs/stt/authentif) the client requests through your backend with key-based authentication and providing a unique identifier for each user.
